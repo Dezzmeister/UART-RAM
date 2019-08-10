@@ -47,5 +47,6 @@ Another example instruction:
 
 40 00 00 03 C0 FF
 
-This indicates that the device will read 255 bytes starting at address 15. After sending this, the application will send the 255 bytes.
+This indicates that the device will read 255 bytes starting at address 15 (dec). After sending this, the application will send the 255 bytes.
 
+NOTE: Address 0 refers to the beginning of the memory allocated by the application, not physical address 0.
